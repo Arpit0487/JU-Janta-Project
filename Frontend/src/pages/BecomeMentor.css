@@ -1,0 +1,36 @@
+.mentor-page {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.mentor-card {
+    max-width: 800px;
+    width: 100%;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.mentor-card h1 {
+    margin-bottom: 20px;
+}
+
+.mentor-card h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.mentor-card ul {
+    margin-left: 20px;
+}
+
+.apply-btn {
+    margin-top: 25px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+}

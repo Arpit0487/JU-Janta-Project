@@ -1,0 +1,52 @@
+.reply-card {
+
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 12px;
+
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.08);
+}
+
+.reply-header {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 12px;
+}
+
+.reply-avatar {
+
+    width: 35px;
+    height: 35px;
+
+    border-radius: 50%;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+}
+
+.reply-card h4 {
+
+    color: #2563eb;
+}
+
+.reply-card p {
+
+    color: #444;
+
+    line-height: 1.6;
+}

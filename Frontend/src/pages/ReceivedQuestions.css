@@ -1,0 +1,59 @@
+.received-questions-page {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+}
+
+.received-questions-page h1 {
+    margin-bottom: 25px;
+}
+
+.received-questions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.received-question-card {
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 12px;
+
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.received-question-card h2 {
+    margin-bottom: 10px;
+}
+
+.question-description {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.question-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 15px;
+}
+
+.discussion-btn {
+    display: inline-block;
+
+    text-decoration: none;
+
+    background-color: #2563eb;
+    color: white;
+
+    padding: 10px 16px;
+
+    border-radius: 6px;
+}
+
+.discussion-btn:hover {
+    background-color: #1d4ed8;
+}

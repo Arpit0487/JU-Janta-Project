@@ -1,0 +1,60 @@
+.home {
+    min-height: 100vh;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 30px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #1a1818;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.hero button:hover {
+    background: #1d4ed8;
+}
+
+.how-it-works,
+.why {
+    padding: 30px 20px;
+}
+
+.how-it-works h2,
+.why h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 280px;
+    padding: 25px;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
